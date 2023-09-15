@@ -1,27 +1,52 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+.col-lg-12 {
+  height: 100vh;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.container {
+  height: 100%;
+  font-size: 100px;
+}
+.row {
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.s-one {
+  color: #fff;
+  background-color: rgb(121, 49, 49);
+}
+.s-two {
+  color: #fff;
+  background-color: rgb(52, 116, 84);
+}
+.s-three {
+  color: #fff;
+  background-color: rgb(79, 64, 116);
+}
+.scroll-control {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+}
+.scroll-control span {
+  cursor: pointer;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin: 10px 0;
+  background-color: #000;
+  opacity: 0.7;
+}
+.scroll-control span:hover {
+  opacity: 1;
+}
+@media all and (max-width: 1023px) {
+  .scroll-control span {
+    display: none;
   }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
