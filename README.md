@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto Next.js com Plugins do jQuery - Prova de Conceito (POC)
+
+Este projeto Next.js foi criado para demonstrar o uso de plugins do jQuery em uma prova de conceito. Ele mostra como integrar o jQuery em um aplicativo Next.js e como usar seus recursos para aprimorar a funcionalidade do aplicativo.
+
+## Visão Geral
+
+Neste projeto de prova de conceito, exploramos a integração de plugins do jQuery em um aplicativo Next.js. O objetivo é demonstrar como o jQuery pode ser usado para adicionar funcionalidades dinâmicas e interativas a um aplicativo Next.js.
 
 ## Getting Started
 
